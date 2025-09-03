@@ -12,6 +12,7 @@ import logo5 from '../public/bhz.png'
 import logo6 from '../public/run.png'
 import logo7 from '../public/map.png'
 import logo8 from '../public/policy.png'
+import logo9 from '../public/car.png'
 
 export default function Home() {
 
@@ -230,6 +231,28 @@ export default function Home() {
           </div>
         </a>
 
+        <a
+          href={"https://lookerstudio.google.com/u/0/reporting/f163109b-c5e7-4111-aad2-0fed57112358/page/p_75ygrzurvd"}
+          target="_blank" rel="noopener noreferrer"
+          className="px-6 py-2 "
+        >
+
+          <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
+            <div className='flex flex-col items-center justify-center pb-4'>
+              <Image
+                alt='logo9'
+                src={logo9}
+                height={50}
+              />
+
+            </div>
+
+
+            <div className='sm:sm:col-span-2 p-3 bg-[#92CA68] text-white rounded-4xl hover:bg-blue-300 text-center'>
+              รถรับส่งคนพิการ-สูงอายุ
+            </div>
+          </div>
+        </a>
         
 
       </div>
